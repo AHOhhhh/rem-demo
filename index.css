@@ -13,6 +13,10 @@ body {
     margin: 0 auto;
 }
 
+.row {
+    margin: 10px 0;
+}
+
 .col-1,
 .col-2,
 .col-3,
