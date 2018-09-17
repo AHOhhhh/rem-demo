@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: #efefef;
+}
+
+.container {
+    width: 10rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-1 {
+    width: 1rem;
+}
+
+.col-2 {
+    width: 2rem;
+}
+
+.col-3 {
+    width: 3rem;
+}
+
+.col-4 {
+    width: 4rem;
+}
+
+.col-5 {
+    width: 5rem;
+}
+
+.col-6 {
+    width: 6rem;
+}
+
+.col-7 {
+    width: 7rem;
+}
+
+.col-8 {
+    width: 8rem;
+}
+
+.col-9 {
+    width: 9rem;
+}
+
+.col-10 {
+    width: 10rem;
+}
