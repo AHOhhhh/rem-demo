@@ -4,17 +4,18 @@
 
 body {
     font-size: 16px;
+    padding: 0;
     background-color: #efefef;
 }
 
 .container {
     width: 10rem;
-    overflow: hidden;
     margin: 0 auto;
 }
 
 .row {
     margin: 10px 0;
+    overflow: hidden;
 }
 
 .col-1,
@@ -27,10 +28,11 @@ body {
 .col-8,
 .col-9,
 .col-10 {
+    display: inline-block;
     position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    float: left;
+    height: 100px;
+    border: 1px solid;
 }
 
 .col-1 {

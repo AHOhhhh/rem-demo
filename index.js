@@ -1,12 +1,12 @@
+const maxWidth = 750;
+const gridNumber = 10;
 let documentElement = document.documentElement;
-
-function updateFontSize() {
-    let clientWidth = documentElement.clientWidth;
-    clientWidth = clientWidth < 640 ? clientWidth : 640;
-    documentElement.style.fontSize = `${clientWidth / 640 * 100}px`;
-    console.log(clientWidth);
-}
-
 document.addEventListener('DOMContentLoaded', updateFontSize);
 window.addEventListener('orientationchange', updateFontSize);
 window.addEventListener('resize', updateFontSize);
+
+function updateFontSize() {
+    let width = documentElement.clientWidth;
+    width = width < maxWidth ? width : maxWidth;
+    documentElement.style.fontSize = `${width / gridNumber}px`;
+}
